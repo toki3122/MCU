@@ -13,7 +13,7 @@
 #define HALL_LEFT_PIN    34
 #define HALL_CENTER_PIN  35
 #define HALL_RIGHT_PIN   32
-#define EM_PIN           25
+#define EM_PIN           27
 #define BAT_PIN          33
 #define MPU_ADDR         0x68
 
