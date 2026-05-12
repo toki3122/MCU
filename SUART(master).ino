@@ -1,3 +1,5 @@
+/*Create sketch to send Voltage and Current to NANO using SUART Port in this format:
+<x.xx,y.yy> where, ‘<’ is the beginning mark and ‘>’ is the ending mark.*/
 #include <SoftwareSerial.h>
 SoftwareSerial SUART(5, 6); //SRX = 5, STX = 6
 float V,I;
